@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: 0sec-labs:main
+    mergeMethod: hardreset
+    mergeUnstable: true
